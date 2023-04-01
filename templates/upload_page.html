@@ -10,13 +10,6 @@
         <button type="submit">convert it</button>
     </form>
     </p>
-    {% if data is not None and error is None %}
-    <div>
-        <p>
-            {{data}}
-        </p>
-    </div>
-    {% endif %}
     {% if error %}
     <div>
         <span>{{error}}</span>
